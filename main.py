@@ -38,9 +38,9 @@ if __name__ == "__main__":
         (r"/.*", MainHandler),
     ])
 
-    application.listen(8888)
+    application.listen(8080)
 
-    logging.info("Listening on 8888")
+    logging.info("301inabox Listening on 8080")
 
     ioloop = tornado.ioloop.IOLoop.instance()
     tornado.autoreload.start(ioloop)
