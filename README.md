@@ -3,10 +3,9 @@
 
 HTTP Redirects in a box
 
-Running the tests
-================
+Just need a simple HTTP redirection server? Use this!
 
-Use a generic test runner like nose or pytest
+```
+docker run -p 80:8080 rgbkrk/301inabox
+```
 
-    pip install nose
-    nosetests -v
